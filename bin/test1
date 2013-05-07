@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./example_client.rb  "host_name=host1|alert_status=CRITICAL|service_name=example_service|service_group=group1"
+./example_client.rb  "host_name=host2|alert_status=CRITICAL|service_name=example_service|service_group=group2"
+./example_client.rb  "host_name=host2|alert_status=FOOBEAR|service_name=example_service|service_group=group2"
