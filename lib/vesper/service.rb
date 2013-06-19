@@ -41,8 +41,8 @@ module Vesper
 
       ####################################################################################
       # Register unmatched listener
-      @unmatched_listener = UnmatchedListener.new
-      @ep_service.getEPRuntime.setUnmatchedListener(@unmatched_listener)
+#      @unmatched_listener = UnmatchedListener.new
+#      @ep_service.getEPRuntime.setUnmatchedListener(@unmatched_listener)
     end
 
     def process_event (alarm_event)

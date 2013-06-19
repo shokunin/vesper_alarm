@@ -4,7 +4,6 @@ require File.join(File.dirname(__FILE__), '..', '..', 'conf', 'environment')
 
 module Vesper
 
-  # Create a listener object
   class NamedListener
     include com.espertech.esper.client.UpdateListener
     attr_reader :name, :add_tags
