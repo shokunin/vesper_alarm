@@ -18,7 +18,6 @@ java_import 'com.espertech.esper.client.UpdateListener'
 java_import 'com.espertech.esper.client.EventBean'
 java_import 'org.apache.commons.logging.Log'
 java_import 'org.apache.commons.logging.LogFactory'
-java_import 'AlertEvent'
 
 module Vesper
 
