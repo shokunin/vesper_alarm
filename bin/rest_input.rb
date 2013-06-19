@@ -10,6 +10,9 @@ require 'json'
 
 vesper_service = Vesper::Service.new
 
+set :logging, false
+set :dump_errors, false
+
 post '/alert' do
   begin
     vesper_service.process_event(JSON.parse request.body.read.to_s)
